@@ -4,8 +4,11 @@
     font-weight: bold;
 }
 
-  
+
+
 body {
+    display: flex;
+    flex-wrap: wrap;
     background-image: url("docs/internet2.jpg");
     // background: #444444 url("docs/internet2.jpg") center no-repeat;
     // background-repeat: no-repeat;
@@ -16,10 +19,15 @@ body {
     font-family: spaceage, sans-serif;
 }
 
+a :hover {
+    cursor: pointer;
+}
+  
 nav {
     text-align: center;
     color: black;
     a {
+        
         color:rgb(7, 5, 2); 
         font-size: 30px;
         background:rgb(14, 150, 86);
@@ -67,4 +75,6 @@ i {
         background-repeat: repeat-y; 
     }
 }
+
+
 
