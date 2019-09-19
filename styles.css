@@ -1,0 +1,53 @@
+@font-face {
+  font-family: spaceage;
+  src: url("docs/space-age.regular.ttf");
+  font-weight: bold;
+}
+
+body {
+  background-color: #444444;
+  background-image: url("docs/internet2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  color: orange;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.75);
+  font-family: spaceage, sans-serif;
+}
+
+nav {
+  text-align: center;
+  color: black;
+}
+
+nav a {
+  color: #070502;
+  font-size: 30px;
+  background: #0e9656;
+  text-decoration: none;
+}
+
+section {
+  text-align: center;
+}
+
+h1 {
+  font-size: 130px;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 80px;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+i {
+  color: #0e9656;
+}
+/*# sourceMappingURL=styles.css.map */
