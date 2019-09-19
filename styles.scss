@@ -2,16 +2,15 @@
     font-family: spaceage;
     src: url("docs/space-age.regular.ttf");
     font-weight: bold;
-  }
+}
 
+  
 body {
-    background-color: #444444;
     background-image: url("docs/internet2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    // background: #444444 url("docs/internet2.jpg") center no-repeat;
+    // background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: lighten;
-    // color: rgb(173, 8, 250)
     color: orange; 
     text-shadow: 4px 4px 8px rgba(0,0,0,0.75);
     font-family: spaceage, sans-serif;
@@ -25,13 +24,11 @@ nav {
         font-size: 30px;
         background:rgb(14, 150, 86);
         text-decoration: none;
-    }
-    
+    }    
 }
 
 section {
-    text-align: center;
-    
+    text-align: center;    
 }
 
 h1 {
@@ -52,3 +49,22 @@ footer {
 i {
     color: rgb(14, 150, 86);
 }
+
+@media screen and (max-width: 601px) {
+    h1 {
+      font-size: 60px;
+    }
+    nav {
+       a{
+       font-size: 15px;
+       }
+    }
+    h2 {
+        font-size: 20px;
+    }
+
+    body {
+        background-repeat: repeat-y; 
+    }
+}
+

@@ -5,10 +5,7 @@
 }
 
 body {
-  background-color: #444444;
   background-image: url("docs/internet2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   background-blend-mode: lighten;
   color: orange;
@@ -49,5 +46,20 @@ footer {
 
 i {
   color: #0e9656;
+}
+
+@media screen and (max-width: 601px) {
+  h1 {
+    font-size: 60px;
+  }
+  nav a {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  body {
+    background-repeat: repeat-y;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
