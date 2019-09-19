@@ -21,6 +21,8 @@ body {
 
 a :hover {
     cursor: pointer;
+    // background-color: #555;
+    
 }
   
 nav {
@@ -30,8 +32,11 @@ nav {
         
         color:rgb(7, 5, 2); 
         font-size: 30px;
-        background:rgb(14, 150, 86);
+        background-color:rgb(14, 150, 86);
         text-decoration: none;
+    
+            
+        
     }    
 }
 
