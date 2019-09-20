@@ -18,8 +18,26 @@ body {
   font-family: spaceage, sans-serif;
 }
 
-a :hover {
+body.tekkers {
+  background-image: url("docs/internet1.jpg");
+  background-position: center;
+}
+
+body.tekkers div {
+  width: 100%;
+}
+
+body.about {
+  background-image: url("docs/brissie.jpg");
+}
+
+body.blog {
+  background-image: url;
+}
+
+a:hover {
   cursor: pointer;
+  background-color: #555;
 }
 
 nav {
@@ -69,6 +87,10 @@ i {
   }
   body {
     background-repeat: repeat-y;
+  }
+  video {
+    width: 100%;
+    height: auto;
   }
 }
 /*# sourceMappingURL=styles.css.map */

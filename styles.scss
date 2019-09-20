@@ -17,11 +17,32 @@ body {
     color: orange; 
     text-shadow: 4px 4px 8px rgba(0,0,0,0.75);
     font-family: spaceage, sans-serif;
+    
+    &.tekkers {
+        
+        background-image: url("docs/internet1.jpg");
+        background-position: center;
+        div {
+            width: 100%;
+        }
+    }
+    
+    &.about {
+
+        background-image: url("docs/brissie.jpg");
+        
+    }
+
+    &.blog {
+
+        background-image: url
+    }
+
 }
 
-a :hover {
+a:hover {
     cursor: pointer;
-    // background-color: #555;
+    background-color: #555;
     
 }
   
@@ -78,6 +99,11 @@ i {
 
     body {
         background-repeat: repeat-y; 
+    }
+
+    video {
+        width: 100%;
+        height: auto;
     }
 }
 
