@@ -14,28 +14,43 @@ body {
     // background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: lighten;
-    color: orange; 
+    color: rgb(255, 166, 0); 
     text-shadow: 4px 4px 8px rgba(0,0,0,0.75);
     font-family: spaceage, sans-serif;
     
+    // styling for the tekkers page
     &.tekkers {
         
-        background-image: url("docs/internet1.jpg");
+        background-image: url("docs/dark.jpg");
         background-position: center;
         div {
+            display: flex;
+            flex-wrap: wrap;
             width: 100%;
+        }
+        h2 {
+            text-align: center;
         }
     }
     
+    // styling for the about page
     &.about {
 
-        background-image: url("docs/brissie.jpg");
-        
+        background-image: url("docs/brisbane-city-skyline-black-and-white-silhouette-vector-13698312.jpg");
+        section {
+            border-style: solid;
+            background-color: #0f0f0f;
+            margin-top: 70px;
+            font-size: 20px;
+            padding: 0px 20px 0px 20px;
+            font-family: sans-serif
+        }
     }
-
+       
+    // styling for the blog page
     &.blog {
 
-        background-image: url
+        background-image: url("docs/blog.jpg")
     }
 
 }
@@ -49,16 +64,17 @@ a:hover {
 nav {
     text-align: center;
     color: black;
-    a {
+    
         
-        color:rgb(7, 5, 2); 
+    a {  color:rgb(7, 5, 2); 
         font-size: 30px;
         background-color:rgb(14, 150, 86);
         text-decoration: none;
+    }
     
             
         
-    }    
+      
 }
 
 section {
@@ -106,6 +122,4 @@ i {
         height: auto;
     }
 }
-
-
-
+        

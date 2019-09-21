@@ -13,26 +13,44 @@ body {
   background-image: url("docs/internet2.jpg");
   background-size: cover;
   background-blend-mode: lighten;
-  color: orange;
+  color: #ffa600;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.75);
   font-family: spaceage, sans-serif;
 }
 
 body.tekkers {
-  background-image: url("docs/internet1.jpg");
+  background-image: url("docs/dark.jpg");
   background-position: center;
 }
 
 body.tekkers div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
 }
 
+body.tekkers h2 {
+  text-align: center;
+}
+
 body.about {
-  background-image: url("docs/brissie.jpg");
+  background-image: url("docs/brisbane-city-skyline-black-and-white-silhouette-vector-13698312.jpg");
+}
+
+body.about section {
+  border-style: solid;
+  background-color: #0f0f0f;
+  margin-top: 70px;
+  font-size: 20px;
+  padding: 0px 20px 0px 20px;
+  font-family: sans-serif;
 }
 
 body.blog {
-  background-image: url;
+  background-image: url("docs/blog.jpg");
 }
 
 a:hover {
