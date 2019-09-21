@@ -18,6 +18,10 @@ body {
   font-family: spaceage, sans-serif;
 }
 
+body h4 {
+  font-family: sans-serif;
+}
+
 body.tekkers {
   background-image: url("docs/dark.jpg");
   background-position: center;
@@ -45,12 +49,24 @@ body.about section {
   background-color: #0f0f0f;
   margin-top: 70px;
   font-size: 20px;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px 10px 20px;
   font-family: sans-serif;
 }
 
 body.blog {
-  background-image: url("docs/blog.jpg");
+  background-image: url("docs/dark.jpg");
+}
+
+body.blog p {
+  font-family: sans-serif;
+  text-align: inherit;
+}
+
+body.blog p img {
+  float: left;
+  border: #0f0f0f;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 a:hover {

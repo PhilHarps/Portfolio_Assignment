@@ -1,125 +1,129 @@
 @font-face {
-    font-family: spaceage;
-    src: url("docs/space-age.regular.ttf");
-    font-weight: bold;
+  font-family: spaceage;
+  src: url("docs/space-age.regular.ttf");
+  font-weight: bold;
 }
 
-
-
 body {
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url("docs/internet2.jpg");
-    // background: #444444 url("docs/internet2.jpg") center no-repeat;
-    // background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: lighten;
-    color: rgb(255, 166, 0); 
-    text-shadow: 4px 4px 8px rgba(0,0,0,0.75);
-    font-family: spaceage, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("docs/internet2.jpg");
+  // background: #444444 url("docs/internet2.jpg") center no-repeat;
+  // background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten;
+  color: rgb(255, 166, 0);
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.75);
+  font-family: spaceage, sans-serif;
+  h4 {
+      font-family: sans-serif;
+  }
+
+  // styling for the tekkers page
+  &.tekkers {
+    background-image: url("docs/dark.jpg");
+    background-position: center;
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    h2 {
+      text-align: center;
+    }
+  }
+
+  // styling for the about page
+  &.about {
+    background-image: url("docs/brisbane-city-skyline-black-and-white-silhouette-vector-13698312.jpg");
+    section {
+      border-style: solid;
+      background-color: #0f0f0f;
+      margin-top: 70px;
+      font-size: 20px;
+      padding: 0px 20px 10px 20px;
+      font-family: sans-serif;
+    }
+  }
+
+  // styling for the blog page
+  &.blog {
+    background-image: url("docs/dark.jpg");
     
-    // styling for the tekkers page
-    &.tekkers {
-        
-        background-image: url("docs/dark.jpg");
-        background-position: center;
-        div {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-        }
-        h2 {
-            text-align: center;
-        }
-    }
     
-    // styling for the about page
-    &.about {
+   p {
+      font-family: sans-serif;
+      text-align: inherit;
 
-        background-image: url("docs/brisbane-city-skyline-black-and-white-silhouette-vector-13698312.jpg");
-        section {
-            border-style: solid;
-            background-color: #0f0f0f;
-            margin-top: 70px;
-            font-size: 20px;
-            padding: 0px 20px 0px 20px;
-            font-family: sans-serif
-        }
+      img {
+          float: left;
+          border: #0f0f0f;
+          margin-right: 10px;
+          margin-bottom: 5px;
+          }  
     }
-       
-    // styling for the blog page
-    &.blog {
-
-        background-image: url("docs/blog.jpg")
-    }
-
+  }
 }
 
 a:hover {
-    cursor: pointer;
-    background-color: #555;
-    
+  cursor: pointer;
+  background-color: #555;
 }
-  
+
 nav {
-    text-align: center;
-    color: black;
-    
-        
-    a {  color:rgb(7, 5, 2); 
-        font-size: 30px;
-        background-color:rgb(14, 150, 86);
-        text-decoration: none;
-    }
-    
-            
-        
-      
+  text-align: center;
+  color: black;
+
+  a {
+    color: rgb(7, 5, 2);
+    font-size: 30px;
+    background-color: rgb(14, 150, 86);
+    text-decoration: none;
+  }
 }
 
 section {
-    text-align: center;    
+  text-align: center;
 }
 
 h1 {
-    font-size: 130px;
-    margin: 20px;
+  font-size: 130px;
+  margin: 20px;
 }
 
 h2 {
-    font-size: 80px;
-    margin: 0;
+  font-size: 80px;
+  margin: 0;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
+  position: fixed;
+  bottom: 0;
 }
 
 i {
-    color: rgb(14, 150, 86);
+  color: rgb(14, 150, 86);
 }
 
 @media screen and (max-width: 601px) {
-    h1 {
-      font-size: 60px;
+  h1 {
+    font-size: 60px;
+  }
+  nav {
+    a {
+      font-size: 15px;
     }
-    nav {
-       a{
-       font-size: 15px;
-       }
-    }
-    h2 {
-        font-size: 20px;
-    }
+  }
+  h2 {
+    font-size: 20px;
+  }
 
-    body {
-        background-repeat: repeat-y; 
-    }
+  body {
+    background-repeat: repeat-y;
+  }
 
-    video {
-        width: 100%;
-        height: auto;
-    }
+  video {
+    width: 100%;
+    height: auto;
+  }
 }
-        
