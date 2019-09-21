@@ -1,13 +1,13 @@
 @font-face {
   font-family: spaceage;
-  src: url("docs/space-age.regular.ttf");
+  src: url("../docs/space-age.regular.ttf");
   font-weight: bold;
 }
 
 body {
   display: flex;
   flex-wrap: wrap;
-  background-image: url("docs/internet2.jpg");
+  background-image: url("../docs/internet2.jpg");
   // background: #444444 url("docs/internet2.jpg") center no-repeat;
   // background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,7 @@ body {
 
   // styling for the tekkers page
   &.tekkers {
-    background-image: url("docs/dark.jpg");
+    background-image: url("../docs/dark.jpg");
     background-position: center;
     div {
       display: flex;
@@ -35,7 +35,7 @@ body {
 
   // styling for the about page
   &.about {
-    background-image: url("docs/brisbane-city-skyline-black-and-white-silhouette-vector-13698312.jpg");
+    background-image: url("../docs/brisbane-city-skyline-black-and-white-silhouette-vector-13698312.jpg");
     section {
       border-style: solid;
       background-color: #0f0f0f;
@@ -48,7 +48,7 @@ body {
 
   // styling for the blog page
   &.blog {
-    background-image: url("docs/dark.jpg");
+    background-image: url("../docs/dark.jpg");
     
     
    p {
