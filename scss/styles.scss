@@ -49,7 +49,12 @@ body {
   // styling for the blog page
   &.blog {
     background-image: url("../docs/dark.jpg");
-    
+
+    div {
+      padding: 20px 0px 0px 20px;
+      margin: auto;
+     
+    }
     
    p {
       font-family: sans-serif;
@@ -63,6 +68,7 @@ body {
           }  
     }
   }
+
 }
 
 a:hover {
