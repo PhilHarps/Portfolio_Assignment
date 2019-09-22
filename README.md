@@ -26,6 +26,22 @@ Please find below screenshots of the main pages
 
 ![Show Menu](https://github.com/PhilHarps/Portfolio_Assignment/blob/master/docs/tekkers_screenshot.JPG)
 
+### Design & Testing Screenshots
+Please find below screenshots of wire frames and Google audits.
+ ![Show Menu](https://github.com/PhilHarps/Portfolio_Assignment/blob/master/docs/wireframe_home.jpeg)
+ 
+![Show Menu](https://github.com/PhilHarps/Portfolio_Assignment/blob/master/docs/wireframe_blog_about.jpeg)
+
+![Show Menu](https://github.com/PhilHarps/Portfolio_Assignment/blob/master/docs/wireframe_tekkers.jpeg)
+
+![Show Menu](https://github.com/PhilHarps/Portfolio_Assignment/blob/master/docs/google_audit_main.JPG)
+
+![Show Menu](https://github.com/PhilHarps/Portfolio_Assignment/blob/master/docs/google_audit_blog.JPG)
+
+![Show Menu](https://github.com/PhilHarps/Portfolio_Assignment/blob/master/docs/google_audit_about.JPG)
+
+![Show Menu](https://github.com/PhilHarps/Portfolio_Assignment/blob/master/docs/google_audit_tekkers.JPG)
+
 ### Target Audience
 The target audience for this project is mainly for future employers and the course tutors who are marking this project. I would also say its for fellow cohorts from the course and my friends and family. I would also include myself in there, as I will be revisiting this project to make improvements and adjustments.
 ### Tech Stack
